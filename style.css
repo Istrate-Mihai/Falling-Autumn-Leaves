@@ -1,0 +1,15 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+background-image: url("bodyBackground.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+
+}
