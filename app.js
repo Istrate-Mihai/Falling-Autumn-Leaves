@@ -10,7 +10,7 @@ for (let i = 0; i < 42; i++) {
   newElement.style.position = "relative";
   newElement.style.width = Math.random() * 55;
   newElement.style.height = Math.random() * 100;
-  newElement.style.backgroundImage = "url('leaf.png')";
+  newElement.style.backgroundImage = "url('images/leaf.png')";
   newElement.style.backgroundSize = "contain";
   newElement.style.backgroundRepeat = "no-repeat";
   objects.push(newElement);
