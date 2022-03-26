@@ -4,6 +4,7 @@ let objects = [];
 let posX_ = [];
 let posY_ = [];
 
+// Create elements to hold the leaves
 for (let i = 0; i < 42; i++) {
   let newElement = document.createElement("div");
   newElement.style.position = "relative";
@@ -14,7 +15,7 @@ for (let i = 0; i < 42; i++) {
   newElement.style.backgroundRepeat = "no-repeat";
   objects.push(newElement);
 }
-
+// Set initial position for the leaves
 for (let i = 0; i < objects.length; i++) {
   posX = Math.random() * 10 + 5;
   posY = Math.random() * 500 + 100;
@@ -28,7 +29,7 @@ for (let i = 0; i < objects.length; i++) {
   posX_[i] = Math.random() * 6;
   posY_[i] = Math.random() * 6;
 }
-
+// Move the leaves
 setInterval(() => {
   for (let i = 0; i < objects.length; i++) {
     posX_[i] += Math.random() * 200;
